@@ -1,0 +1,279 @@
+[
+    {
+        "id" : 1,
+        "nombre": "Prótesis de mano",
+        "descripcion": "Prótesis de mano. Este prototipo forma parte del proyecto de control de prótesis robóticas mediante un sensor mioeléctrico, pero también se pueden utilizar otros sensores.",
+        "imagenes": [
+            "img/imgProducto/img1.jpg",
+            "img/imgProducto/img2.jpg",
+            "img/imgProducto/img3.jpg",
+            "img/imgProducto/img4.jpg"
+        ],
+        "caracteristicas": [
+            "Número de diseño: 765425",
+            "Fecha de publicación: 2022-06-25 23:34",
+            "Temperatura de la placa de impresión: 60 °C",
+            "Velocidad de impresión: 55 mm/s"
+        ], 
+        "comentarios": []
+       
+    },
+    {
+        "id": 2,
+        "nombre": "Prótesis de Pierna",
+        "descripcion": "Una prótesis robótica didáctica, diseñada para estudiantes y entusiastas de la robótica.",
+        "imagenes": [
+            "img/imgProducto/img5.jpg"
+
+        ],
+        "imagenesParaRecorrer": [            "img/imgProducto/img7.jpg",
+        "img/imgProducto/img11.jpg",
+        "img/imgProducto/img6.jpg"],
+        "caracteristicas": [
+            "Densidad de relleno: 20%",
+            "Temperatura de material: Según lo indique el PLA",
+            "Temperatura de la placa de impresión: 60 °C",
+            "Velocidad de impresión: 55 mm/s",
+            "Tipo de adherencia a la placa: Borde"
+        ],
+        "comentarios": [
+            {
+                "usuario": "Usuario 1",
+                "calificacion": 4,
+                "fecha": "01/10/2023",
+                "comentario": "Soy estudiante y esta prótesis es genial para aprender. La imprimí a buena velocidad y quedó perfecta."
+            },
+            {
+                "usuario": "Usuario 2",
+                "calificacion": 3,
+                "fecha": "02/10/2023",
+                "comentario": "Un amigo está encantado con su nueva pierna impresa. Diseño preciso y fácil ensamblaje. Recomendado al 100%."
+            },
+            {
+                "usuario": "Usuario 3",
+                "calificacion": 5,
+                "fecha": "03/10/2023",
+                "comentario": "Perfecto para principiantes. Las instrucciones son sencillas, incluso para novatos como yo. Ideal para quienes comienzan en robótica. ¡Totalmente recomendado!"
+            },
+            {
+                "usuario": "Usuario 4",
+                "calificacion": 4,
+                "fecha": "20/10/2023",
+                "comentario": "Quedó bien"
+            }
+        ]
+    },
+    {
+        "id" : 3,
+        "nombre": "Prótesis de mano",
+        "descripcion": "Prótesis de mano Phoenix sin extremidades",
+        "imagenes": ["img/imgBiblioteca/img2.webp"],
+        "caracteristicas": [
+            "Densidad de relleno: 20%",
+            "Temperatura de material: Según lo indique el PLA",
+            "Temperatura de la placa de impresión: 60 °C",
+            "Velocidad de impresión: 55 mm/s",
+            "Tipo de adherencia a la placa: Borde"
+        ], 
+        "comentarios": []
+        
+    },
+    {
+        "id" : 4,
+        "nombre": "Prótesis mecánica de dedo",
+        "descripcion": "Prótesis de dedo, a imprimir con material resistente, dimensiones a adaptar para encajar.",
+        "imagenes": ["img/imgBiblioteca/img3.webp"],
+        "caracteristicas": [
+            "Densidad de relleno: 20%",
+            "Temperatura de material: Según lo indique el PLA",
+            "Temperatura de la placa de impresión: 60 °C",
+            "Velocidad de impresión: 55 mm/s",
+            "Tipo de adherencia a la placa: Borde"
+        ], 
+        "comentarios": []
+        
+    },
+    {
+        "id" : 5,
+        "nombre": "Prótesis de dedo",
+        "descripcion": "Descripción del Producto.",
+        "imagenes": ["img/imgBiblioteca/img4.webp"] ,
+        "caracteristicas": [
+            "Densidad de relleno: 20%",
+            "Temperatura de material: Según lo indique el PLA",
+            "Temperatura de la placa de impresión: 60 °C",
+            "Velocidad de impresión: 55 mm/s",
+            "Tipo de adherencia a la placa: Borde"
+        ], 
+        "comentarios": []
+        
+    },
+    {
+        "id" : 6,
+        "nombre": "Prótesis de dedo",
+        "descripcion": "Diseño de prótesis para dedo indice sin dos falanges. Para dedo índicie derecho, si necesitas el izquierdo, solo espéjalo.",
+        "imagenes": [
+            "img/imgProducto/6protesisDedo/1-pro-dedo.png",
+            "img/imgProducto/6protesisDedo/2-pro-dedo.png",
+            "img/imgProducto/6protesisDedo/3-pro-dedo.png",
+            "img/imgProducto/6protesisDedo/4-pro-dedo.png"
+        ],
+        "caracteristicas": [
+            "Número de diseño: 172546",
+            "Fecha de publicación: 2020-07-14 17:42",
+            "Temperatura de la placa de impresión: entre 50°C y 80°C.",
+            "Velocidad de impresión: entre 30 y 100 mm/s.",
+            "Módelo 3d tamaño: X 24,8 - Y 78,6 - Z 24,8 mm."
+            
+        ], 
+        "comentarios": []
+       
+    },
+    {
+        "id" : 7,
+        "nombre": "Prótesis articulada de mano biomécanica",
+        "descripcion": "Prótesis articulada de mano biomécanica, combina la funcionalidad avanzada con un diseño ergonómico.",
+        "imagenes": [
+            "img/imgProducto/7protesisMano/1-pro-mano.png",
+            "img/imgProducto/7protesisMano/2-pro-mano.png",
+            "img/imgProducto/7protesisMano/3-pro-mano.png",
+            "img/imgProducto/7protesisMano/4-pro-mano.png"
+        ],
+        "caracteristicas": [
+            "Número de diseño: 172546",
+            "Fecha de publicación: 2020-07-14 17:42",
+            "Temperatura de la placa de impresión: entre 50°C y 80°C.",
+            "Velocidad de impresión: de 30 a 100 mm/s.",
+            "Piezas: 29 partes encastrables.",
+            "Altura: 18cm.",
+            "Recomendación: Imprimir con algún material flexible para darle articulación."
+        ], 
+        "comentarios": []
+       
+    },
+    {
+        "id" : 8,
+        "nombre": "Prótesis de brazo biomécanico",
+        "descripcion": "Prótesis de brazo biomecánico articulado prototipo funcional, diseñado para devolver la funcionalidad.",
+        "imagenes": [
+            "img/imgProducto/8protesisBrazo/1-pro-brazo.png",
+            "img/imgProducto/8protesisBrazo/2-pro-brazo.png",
+            "img/imgProducto/8protesisBrazo/3-pro-brazo.png",
+            "img/imgProducto/8protesisBrazo/4-pro-brazo.png"
+        ],
+        "caracteristicas": [
+            "Número de diseño: 1337982",
+            "Fecha de publicación: 2023-07-21 23:52",
+            "Temperatura de la placa de impresión: entre 50°C y 80°C.",
+            "Velocidad de impresión: de 30 a 100 mm/s.",
+            "Piezas: 33 partes encastrables.",
+            "Recomendación: Imprimir con algún material flexible para darle articulación."
+        ], 
+        "comentarios": []
+       
+    },
+    {
+        "id" : 9,
+        "nombre": "Prótesis de férula para muñeca y antebrazo",
+        "descripcion": "Férula de muñeca y antebrazo totalmente funcional y práctica para imprimir.",
+        "imagenes": [
+            "img/imgProducto/9protesisMunAnt/1-pro-muneca-antebrazo.png",
+            "img/imgProducto/9protesisMunAnt/2-pro-muneca-antebrazo.png",
+            "img/imgProducto/9protesisMunAnt/3-pro-muneca-antebrazo.png",
+            "img/imgProducto/9protesisMunAnt/4-pro-muneca-antebrazo.png"
+        ],
+        "caracteristicas": [
+            "Número de diseño: 1527928",
+            "Fecha de publicación: 2023-10-21 12:43",
+            "Temperatura de la placa de impresión: entre 50°C y 80°C.",
+            "Velocidad de impresión: de 30 a 100 mm/s.",
+            "Piezas: 2 partes."
+        ], 
+        "comentarios": []
+       
+    },
+    {
+        "id" : 10,
+        "nombre": "Lámpara seta estilo moderno",
+        "descripcion": "Lámpara de estilo moderno, tiene una forma sencilla con líneas geométricas.",
+        "imagenes": [
+            "img/imgProducto/10lamparaSetaModerna/1-lampara-seta-moderna.png",
+            "img/imgProducto/10lamparaSetaModerna/2-lampara-seta-moderna.jpg",
+            "img/imgProducto/10lamparaSetaModerna/3-lampara-seta-moderna.png",
+            "img/imgProducto/10lamparaSetaModerna/4-lampara-seta-moderna.png"
+        ],
+        "caracteristicas": [
+            "Número de diseño: 1291964",
+            "Fecha de publicación: 2023-06-26 14:22",
+            "Temperatura de la placa de impresión: entre 50°C y 80°C.",
+            "Velocidad de impresión: de 30 a 100 mm/s.",
+            "Piezas: 2 partes.",
+            "Iluminación: Ofrece una distribución uniforme de la luz en todo su cuerpo",
+            "Recomendación: Portalámpara es E14/E12."
+        ], 
+        "comentarios": []
+       
+    },
+    {
+        "id" : 11,
+        "nombre": "Lámpara seta",
+        "descripcion": "Lámpara de noche, basada en la seta pequeña, forma sencilla con nuevo diseño.",
+        "imagenes": [
+            "img/imgProducto/11lamparaSeta/1-lampara-seta.png",
+            "img/imgProducto/11lamparaSeta/2-lampara-seta.png",
+            "img/imgProducto/11lamparaSeta/3-lampara-seta.png",
+            "img/imgProducto/11lamparaSeta/4-lampara-seta.png"
+        ],
+        "caracteristicas": [
+            "Número de diseño: 1291964",
+            "Fecha de publicación: 2023-06-26 14:22",
+            "Temperatura de la placa de impresión: entre 50°C y 80°C.",
+            "Velocidad de impresión: de 30 a 100 mm/s.",
+            "Piezas: 11 partes.",
+            "Ensamblado: Fácil de montar, sin tornillos (quizás necesite un poco de pegamento para pegar las 9 tapas en la cabeza).",
+            "Recomendación: Luz led (menos de 3,5W) con soporte E27"
+        ], 
+        "comentarios": []
+       
+    },
+    {
+        "id" : 12,
+        "nombre": "Lámpara con cristal tradicional asiática",
+        "descripcion": "Lámpara de noche con patrones de paneles tradicionales asiáticos.",
+        "imagenes": [
+            "img/imgProducto/12lamparaTradicional/1-lampara-tradicional.png",
+            "img/imgProducto/12lamparaTradicional/2-lampara-tradicional.png",
+            "img/imgProducto/12lamparaTradicional/3-lampara-tradicional.png",
+            "img/imgProducto/12lamparaTradicional/4-lampara-tradicional.png"
+        ],
+        "caracteristicas": [
+            "Número de diseño: 1291979",
+            "Fecha de publicación: 2023-06-26 14:22",
+            "Temperatura de la placa de impresión: entre 50°C y 80°C.",
+            "Velocidad de impresión: de 30 a 100 mm/s.",
+            "Piezas: 7 partes.",
+            "Ensamblado: Estructura mortise-tenon y se puede montar fácilmente.",
+            "Recomendación:  bombillas LED T22 (1-3W) con casquillo E12/E14."
+        ], 
+        "comentarios": []
+       
+    },
+    {
+        "id" : 13,
+        "nombre": "Gatos fantasma de Halloween",
+        "descripcion": "3 gatos fantasma de Halloween en diferentes poses.",
+        "imagenes": [
+            "img/imgBiblioteca/img1.webp" ,
+            "img/imgBiblioteca/img6.jpg"
+        ],
+        "caracteristicas": [
+            "Densidad de relleno: 20%",
+            "Temperatura de material: Según lo indique el PLA",
+            "Temperatura de la placa de impresión: 60 °C",
+            "Velocidad de impresión: 55 mm/s",
+            "Tipo de adherencia a la placa: Borde"
+        ], 
+        "comentarios": []
+        
+    }
+]

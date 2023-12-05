@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Producto</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/producto.css">
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+    <header class="header"></header>
+
+    <!-- Contenido principal -->
+    <div class="container contenedor-principal" id="">
+        <div class="row" id="carrusel-info">
+            <!-- Carrusel de Imágenes -->
+            <div class="col-lg-7" id="carrusel1">
+                <div id="productCarousel" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner carrusel-principal"></div>
+
+                    <a class="carousel-control-prev" href="#productCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Anterior</span>
+                    </a>
+                    <a class="carousel-control-next" href="#productCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Siguiente</span>
+                    </a>
+                </div>
+                <!-- Miniaturas -->
+                <div class="row mt-3" id="img-miniaturas">
+                </div>
+            </div>
+            <!-- Detalles del Producto -->
+            <div class="col-lg-5">
+                <div class="product-details p-4 bg-light rounded shadow" id="product-details"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sección de Comentarios y Formulario -->
+    <div class="container my-5">
+        <div class="row" id="form-comentarios">
+            <!-- Columna de Reseñas del Producto -->
+            <div class="col-md-7 d-flex flex-column align-items-center" id="contenedor-reseñas">
+                <h2 class="mb-4 text-primary" id="titulo-reseñas">Reseñas del Producto</h2>
+                <div class="comentariosContainer border-right-only p-3 mb-3" id="comentariosContenedor">
+                    <!-- Los comentarios se mostrarán aquí -->
+                </div>
+                <div class="pagination-container mt-3 d-flex justify-content-center" id="botones-comentario">
+                    <button class="btn btn-outline-primary btn-sm mr-2 btn-comentario"
+                        id="anteriorBtn">Anterior</button>
+                    <button class="btn btn-outline-primary btn-sm btn-comentario" id="siguienteBtn">Siguiente</button>
+                </div>
+            </div>
+            <!-- Columna del Formulario de Comentarios -->
+            <div class="col-md-5 bg-light p-5 rounded" id="contenedor-form">
+                <form id="comentarioForm">
+                    <h5 class="mb-4 text-danger" id="comentarioTitulo">Deja tu Comentario</h5>
+                    <div class="form-group">
+                        <label for="userName" class="text-primary">Nombre:</label>
+                        <input type="text" class="form-control" id="userName" required maxlength="25">
+                    </div>
+                    <div class="form-group">
+                        <label class="text-primary">Calificación:</label><br>
+                        <span class="star" id="star1">☆</span>
+                        <span class="star" id="star2">☆</span>
+                        <span class="star" id="star3">☆</span>
+                        <span class="star" id="star4">☆</span>
+                        <span class="star" id="star5">☆</span>
+                    </div>
+                    <div class="form-group">
+                        <label for="userComment" class="text-primary">Comentario:</label>
+                        <textarea class="form-control" id="userComment" rows="4" required maxlength="100"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-danger btn-lg mx-auto d-md-inline d-block">Enviar
+                        Comentario</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Sección de Sugerencias (Carrusel) -->
+    <div class="container my-5">
+        <h2 class="mb-2 text-info">Productos Relacionados</h2>
+        <div id="relatedProductsCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <!-- Contenido del carrusel -->
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="img/imgProducto/similares1.png" class="card-img-top" alt="Producto 1">
+                                <div class="card-body">
+                                    <h5 class="card-title">Prótesis de mano articulada</h5>
+                                    <a href="#" class="btn btn-primary mx-auto d-md-inline d-block">Ver Producto</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-none d-md-block">
+                            <div class="card">
+                                <img src="img/imgProducto/similares2.png" class="card-img-top" alt="Producto 3">
+                                <div class="card-body">
+                                    <h5 class="card-title">Prótesis de brazo</h5>
+                                    <a href="#" class="btn btn-primary mx-auto d-md-inline d-block">Ver Producto</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-none d-md-block">
+                            <div class="card">
+                                <img src="img/imgProducto/similares3.png" class="card-img-top" alt="Producto 3">
+                                <div class="card-body">
+                                    <h5 class="card-title">Prótesis de dedo</h5>
+                                    <a href="#" class="btn btn-primary mx-auto d-md-inline d-block">Ver Producto</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Puedes agregar más elementos carousel-item según sea necesario para más productos -->
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="img/imgProducto/similares4.png" class="card-img-top" alt="Producto 4">
+                                <div class="card-body">
+                                    <h5 class="card-title">Modelo de backets invisible</h5>
+                                    <a href="#" class="btn btn-primary mx-auto d-md-inline d-block">Ver Producto</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-none d-md-block">
+                            <div class="card">
+                                <img src="img/imgProducto/similares5.jpg" class="card-img-top" alt="Producto 4">
+                                <div class="card-body">
+                                    <h5 class="card-title">Protector de nariz</h5>
+                                    <a href="#" class="btn btn-primary mx-auto d-md-inline d-block">Ver Producto</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-none d-md-block">
+                            <div class="card">
+                                <img src="img/imgProducto/similares6.png" class="card-img-top" alt="Producto 6">
+                                <div class="card-body">
+                                    <h5 class="card-title">Prótesis pata para perro/gato</h5>
+                                    <a href="#" class="btn btn-primary mx-auto d-md-inline d-block">Ver Producto</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Agrega más elementos carousel-item según sea necesario para más productos -->
+            </div>
+            <a class="carousel-control-prev" href="#relatedProductsCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"
+                    style="font-size: 2rem; color: black;"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#relatedProductsCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"
+                    style="font-size: 2rem; color: black;"></span>
+                <span class="sr-only">Siguiente</span>
+            </a>
+        </div>
+    </div>
+
+    <footer class="pie-pagina"></footer>
+
+
+    <script src="js/detallesProducto.js"></script>
+    <script src="js/biblioteca.js"></script>
+    <script src="js\loadNavFooter.js"></script>
+
+
+</body>
+
+</html>
