@@ -1,54 +1,79 @@
-
-
-.contenedor-calculadora {
+.calculadora {
+    display: flex;
+    flex-direction: column;
+    border: solid 1px rgb(61, 61, 61);
+    color: white;
     padding: 30px;
     margin-top: 50px;
     border-radius: 10px;
-    /*box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
-    background-color: #ffffff;*/
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
 }
 
-.contenedor-calculadora .card-header {
-    background-color: #007bff;
-    color: white;
-    text-align: center;
-    font-size: 28px;
-    padding: 15px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+.calculadora>h1 {
+    margin-bottom: 20px;
 }
 
-.contenedor-calculadora .form-group label {
-    color: #495057;
+.calculadora .form-row {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.calculadora .form-row input,
+.calculadora .form-row select {
+    width: 250px;
+    padding: 5px;
+}
+
+.calculadora .form-row label {
+    text-align: right;
+    width: 300px;
     font-weight: bold;
+    padding-right: 15px;
+    padding-top: 6px;
 }
 
-.contenedor-calculadora .form-control {
-    border-color: #007bff;
-    border-radius: 5px;
-}
-
-.contenedor-calculadora .form-control:focus {
-    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
-    border-color: #007bff;
-}
-
-.contenedor-calculadora .btn-primary {
+.calculadora .contenedor-boton button {
+    color: white;
     background-color: #007bff;
     border: none;
     border-radius: 5px;
+    margin-top: 10px;
+    padding: 5px 20px;
     transition: all 0.3s;
 }
 
-.contenedor-calculadora .btn-primary:hover {
+.calculadora .contenedor-boton button:hover {
     background-color: #0056b3;
 }
 
-.contenedor-calculadora .precio-total {
+.calculadora .precio-total {
     font-size: 36px;
     font-weight: bold;
     color: #28a745;
     margin-top: 20px;
 }
 
-/*nav*/
+@media screen and (max-width: 1150px) {
+    .calculadora {
+        width: clamp(400px, 75%, 800px);
+    }
+
+    .calculadora .contenedor-inputs {
+        width: clamp(300px, 70%, 450px);
+    }
+
+    .calculadora .form-row {
+        flex-direction: column;
+    }
+
+    .calculadora .form-row input,
+    .calculadora .form-row select {
+        width: 100%;
+    }
+
+    .calculadora .form-row label {
+        text-align: left;
+        padding: 6px 0;
+        width: fit-content;
+    }
+}

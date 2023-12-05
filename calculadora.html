@@ -17,55 +17,49 @@
 <body>
     <header class="header"></header>
 
-
-    <div class="container contenedor-principal">
-        <div class="mx-auto">
-            <div class="mx-auto">
-                <div class="card mx-auto">
-                    <div class="card-header">
-                        Calculadora de Impresión 3D
-                    </div>
-                    <div class="card-body">
-                        <div class="form-group">
-                            <label for="cantidad">Cantidad de impresiones:</label>
-                            <input type="number" class="form-control" id="cantidad" placeholder="Cantidad">
-                        </div>
-                        <div class="form-group">
-                            <label for="costo">Costo por impresión ($):</label>
-                            <input type="number" class="form-control" id="costo" placeholder="Costo por impresión">
-                        </div>
-                        <div class="form-group">
-                            <label for="material">Tipo de material:</label>
-                            <select class="form-control" id="material">
-                                <option value="pla">PLA</option>
-                                <option value="abs">ABS</option>
-                                <option value="petg">PETG</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="peso">Peso del material por impresión (g):</label>
-                            <input type="number" class="form-control" id="peso" placeholder="Peso del material">
-                        </div>
-                        <div class="form-group">
-                            <label for="altura">Altura de capa (mm):</label>
-                            <input type="number" class="form-control" id="altura" placeholder="Altura de capa">
-                        </div>
-                        <div class="form-group">
-                            <label for="tiempo">Tiempo de impresión (horas):</label>
-                            <input type="number" class="form-control" id="tiempo" placeholder="Tiempo de impresión">
-                        </div>
-                        <div class="form-group">
-                            <label for="tarifa">Tarifa de trabajo por hora ($):</label>
-                            <input type="number" class="form-control" id="tarifa" placeholder="Tarifa de trabajo">
-                        </div>
-                        <button class="btn btn-primary mt-3 btn-block" onclick="calcularPrecio()">Calcular Precio
-                            Total</button>
-                        <div class="precio-total text-center" id="precioTotal"></div>
-                    </div>
-                </div>
+    <main class="calculadora">
+        <h1>
+            Calculadora de Impresión 3D
+        </h1>
+        <div class="contenedor-inputs">
+            <div class="form-row">
+                <label for="cantidad">Cantidad de impresiones:</label>
+                <input type="number" id="cantidad" placeholder="Cantidad">
+            </div>
+            <div class="form-row">
+                <label for="costo">Costo por impresión ($):</label>
+                <input type="number" id="costo" placeholder="Costo por impresión">
+            </div>
+            <div class="form-row">
+                <label for="material">Tipo de material:</label>
+                <select id="material">
+                    <option value="pla">PLA</option>
+                    <option value="abs">ABS</option>
+                    <option value="petg">PETG</option>
+                </select>
+            </div>
+            <div class="form-row">
+                <label for="peso">Peso del material por impresión (g):</label>
+                <input type="number" id="peso" placeholder="Peso del material">
+            </div>
+            <div class="form-row">
+                <label for="altura">Altura de capa (mm):</label>
+                <input type="number" id="altura" placeholder="Altura de capa">
+            </div>
+            <div class="form-row">
+                <label for="tiempo">Tiempo de impresión (horas):</label>
+                <input type="number" id="tiempo" placeholder="Tiempo de impresión">
+            </div>
+            <div class="form-row">
+                <label for="tarifa">Tarifa de trabajo por hora ($):</label>
+                <input type="number" id="tarifa" placeholder="Tarifa de trabajo">
             </div>
         </div>
-    </div>
+        <div class="contenedor-boton">
+            <button type="button" onclick="calcularPrecio()">Calcular Precio Total</button>
+            <div class="precio-total" id="precioTotal"></div>
+        </div>
+    </main>
 
 
     <footer class="pie-pagina"></footer>
